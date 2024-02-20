@@ -1,6 +1,5 @@
-import React from "react";
 
-function Keypad (props){
+function Keypad (){
     function handleInput() {
         console.log('Entering password...')
     }
