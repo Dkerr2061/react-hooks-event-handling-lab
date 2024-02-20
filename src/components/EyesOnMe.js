@@ -9,11 +9,9 @@ function EyesOnMe() {
   }
 
   return (
-    <div>
       <button onFocus={hadleFocus} onBlur={handleBlur}>
         Eyes on me
       </button>
-    </div>
   )
 }
 
